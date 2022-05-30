@@ -2,7 +2,7 @@ import './App.css';
 import React, {useState} from 'react'
 import Table from './Table';
 
-const url = 'http://127.0.0.1:5000/twitter'
+const url = 'https://buzzerwatch-kabita03.azurewebsites.net/twitter'
 
 const App = () => {
   const [hastag,setHastag] = useState()
